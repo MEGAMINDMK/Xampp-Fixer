@@ -4,3 +4,5 @@
 
 # Xampp-Fixer
 This tool will fix xampp most common issue, <b>"MySQL Shutdown Unexpectedly"</b>
+<br>
+Place the file in C:\xampp\here double click to run and fix xampp
