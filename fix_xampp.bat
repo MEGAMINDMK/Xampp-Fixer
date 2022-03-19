@@ -1,4 +1,5 @@
 @echo off
+title [Fix Xampp] - MySQL Shutdown Unexpectedly By: Webnet Official
 echo Removing bad sectors
 RMDIR C:\xampp\mysql\data2 /S /Q
 timeout /T 2 /nobreak>nul
