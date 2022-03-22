@@ -1,9 +1,5 @@
 @echo off
 title [Fix Xampp] - MySQL Shutdown Unexpectedly By: Webnet Official
-echo Removing bad sectors
-RMDIR C:\xampp\mysql\data2 /S /Q
-timeout /T 2 /nobreak>nul
-
 echo creating backup data
 mkdir C:\xampp\mysql\data2
 xcopy "C:\xampp\mysql\data\ibdata1" "C:\xampp\mysql\data2" /y
