@@ -28,5 +28,8 @@ xcopy /i /e /s "C:\xampp\mysql\backup\" "C:\xampp\mysql\data" /y
 timeout /T 3 /nobreak>nul
 xcopy /i /e /s "C:\xampp\mysql\data2\ibdata1" "C:\xampp\mysql\data" /y
 
+timeout /T 7 /nobreak>nul
+RMDIR C:\xampp\mysql\data2 /S /Q
+
 echo Done..! Press any key to finish
 pause>nul
